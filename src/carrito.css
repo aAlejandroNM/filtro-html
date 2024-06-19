@@ -1,0 +1,77 @@
+/* header */
+body{
+    background-color: #222121;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: aliceblue;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+    
+}
+.panel_izquierdo h4,p{
+    margin-top: 6vh;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+.panel_izquierdo a{
+    text-decoration: none;
+    color: aliceblue;
+    
+    background-color: #373636;
+}
+
+.panel_derecho{
+    background-color: #353434;
+    border-radius: 15px;
+    margin-right: 5vh;
+    padding-left: 10vh;
+    
+}
+.panel_derecho h2{
+    margin-bottom: 5vh;
+    font-size: 2em;
+}
+.productos{
+    background-color: #222121;
+    border-radius: 15px;
+    margin-right: 3vh;
+    margin-top: 3vh;
+}
+.equis a{
+    text-decoration:none ;
+    color: red;
+}
+.productos img{
+    height: 10vh;
+    border-radius: 15px;
+}
+
+.dos_botones{
+    display: flex;
+    justify-content: space-between;
+}
+.vaciar_carrito{
+    margin-top: 3vh;
+    background-color: #222121;
+    border-radius: 15px;
+    padding: 1vh;
+}
+.vaciar_carrito a{
+    text-decoration: none;
+    color:aliceblue ;
+}
+.total{
+    margin-top: 3vh;
+    background-color: #222121;
+    border-radius: 15px;
+    padding: 1vh;
+    margin-right: 3vh;
+}
+.equis{
+    color:red;
+    font-size: 30px;
+}
